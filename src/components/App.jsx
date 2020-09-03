@@ -21,7 +21,6 @@ function App() {
     setProjects((prevProjects) => {
       return [...projs];
     });
-    console.log(projs);
   }, []);
 
   function addProject(newProject) {
@@ -44,7 +43,6 @@ function App() {
 
   function displayTask(id) {
     const proj = projects.filter((x) => x.id === id)[0];
-    console.log("proj", proj, "id", id);
     setSelected((prev) => {
       setTasks(proj.tasks);
       return proj;
@@ -80,8 +78,7 @@ function App() {
       return [...newUpdated];
     });
     updateProjects([...newUpdated]);
-    console.log("id", id, "newUpdated", newUpdated, "updated.id", updated.id);
-    // window.location.reload();
+    window.location.reload();
   }
 
   function handleCheck(taskID, checkValue) {
@@ -104,8 +101,7 @@ function App() {
       return [..._projects];
     });
     updateProjects([..._projects]);
-    console.log("project", projects, "updateId", update.id);
-    // window.location.reload();
+    window.location.reload();
   }
 
   return (

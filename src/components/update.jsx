@@ -11,9 +11,7 @@ function Update(props) {
 
   function handleChange(event) {
     const { name, value } = event.target;
-    console.log("name", name, "value", value);
     name === "title" && value === "" ? setAlert(true) : setAlert(false);
-
     setUpdateProject((prevProject) => {
       return {
         ...prevProject,
@@ -21,7 +19,6 @@ function Update(props) {
       };
     });
   }
-  console.log(updateProject);
 
   function submitProject(event) {
     if (updateProject.title === "") {

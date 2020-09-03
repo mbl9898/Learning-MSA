@@ -16,7 +16,6 @@ function Create(props) {
       };
     });
   }
-  // console.log(project);
 
   function submitProject(event) {
     props.onAdd(project);
