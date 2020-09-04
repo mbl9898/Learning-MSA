@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Learning_MSA/static/css/main.111f487b.chunk.css",
+    "main.js": "/Learning_MSA/static/js/main.c44fcf14.chunk.js",
+    "main.js.map": "/Learning_MSA/static/js/main.c44fcf14.chunk.js.map",
+    "runtime-main.js": "/Learning_MSA/static/js/runtime-main.10045abb.js",
+    "runtime-main.js.map": "/Learning_MSA/static/js/runtime-main.10045abb.js.map",
+    "static/js/2.0e50d830.chunk.js": "/Learning_MSA/static/js/2.0e50d830.chunk.js",
+    "static/js/2.0e50d830.chunk.js.map": "/Learning_MSA/static/js/2.0e50d830.chunk.js.map",
+    "index.html": "/Learning_MSA/index.html",
+    "precache-manifest.1e73eeeab15e9b50f2170d8cd14b8ca8.js": "/Learning_MSA/precache-manifest.1e73eeeab15e9b50f2170d8cd14b8ca8.js",
+    "service-worker.js": "/Learning_MSA/service-worker.js",
+    "static/css/main.111f487b.chunk.css.map": "/Learning_MSA/static/css/main.111f487b.chunk.css.map",
+    "static/js/2.0e50d830.chunk.js.LICENSE.txt": "/Learning_MSA/static/js/2.0e50d830.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10045abb.js",
+    "static/js/2.0e50d830.chunk.js",
+    "static/css/main.111f487b.chunk.css",
+    "static/js/main.c44fcf14.chunk.js"
+  ]
+}
