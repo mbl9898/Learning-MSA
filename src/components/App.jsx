@@ -24,7 +24,13 @@ function App() {
   }, []);
 
   function addProject(newProject) {
-    newProject.id = projects.length + 1;
+    const arrayCheck = projects.length;
+    let lastElementId = arrayCheck !== 0 ? projects[projects.length - 1].id : 0;
+    // let lastElementId = 0;
+    // if (arrayCheck !== 0) {
+    //   lastElementId = projects[projects.length - 1].id;
+    // }
+    newProject.id = lastElementId + 1;
     newProject.tasks = [];
     setProjects((prevProjects) => {
       return [...prevProjects, newProject];
